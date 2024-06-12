@@ -21,7 +21,7 @@ const Piechart = () => {
         type: "doughnut",
 
         data: {
-          labels: ["90% LP ", "10% KOL", "5% Team",],
+          labels: ["90% LP ", "5% KOL", "5% Team",],
           datasets: [
             {
               label: "Info",
