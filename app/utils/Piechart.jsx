@@ -21,13 +21,13 @@ const Piechart = () => {
         type: "doughnut",
 
         data: {
-          labels: ["80% LP ", "10% KOL", "5% Team", "5% Community"],
+          labels: ["90% LP ", "10% KOL", "5% Team",],
           datasets: [
             {
               label: "Info",
-              data: [80, 10, 5, 5],
+              data: [90, 5, 5],
               backgroundColor: [
-                '#FBE5B6',
+                '#fcf300',
                 '#ff5f6d',   
                 "#2C6E63", 
                 "#561217", 

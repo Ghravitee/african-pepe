@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
-import { Nunito, Anton } from "next/font/google";
+import { Nunito, Anton, Luckiest_Guy } from "next/font/google";
 import "./globals.css";
 
-const nunito = Nunito({ subsets: ["latin"] });
+// const nunito = Nunito({ subsets: ["latin"] });
 
 const anton = Anton({subsets: ["latin"],
 weight: "400",
 variable: "--font-anton",})
+
+const luckiestGuy = Luckiest_Guy({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-luckiest-guy",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.className} ${anton.variable} bg-myyellow relative`}>{children}</body>
+      <body className={`${luckiestGuy.className} ${anton.variable} bg-myyellow relative`}>{children}</body>
     </html>
   );
 }
