@@ -41,7 +41,7 @@ const About = () => {
             whileInView="show"
             variants={fadeIn("left", "tween", 0, 0.8)}
             viewport={{ once: true }}
-            className="text-black text-[1.4rem] md:text-3xl leading-7 font-semibold"
+            className="text-black text-[1.4rem] md:text-3xl leading-7 font-normal"
           >
             {" "}
             This groundbreaking digital token invites you on an exhilarating
@@ -55,7 +55,7 @@ const About = () => {
             whileInView="show"
             variants={fadeIn("left", "tween", 0, 1)}
             viewport={{ once: true }}
-            className="text-black text-[1.4rem] md:text-3xl leading-7 font-semibold"
+            className="text-black text-[1.4rem] md:text-3xl leading-7 font-normal"
           >
             {" "}
             <span className="text-[#ff0054] font-bold">African Attire and Symbolism:</span> Apepe wears resplendent African
