@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <div className=" relative border-b-[16px] border-b-white">
+      <div className=" relative lg:border-b-[16px] lg:border-b-white">
         <div className="box1 bg-green-500 -z-50 absolute top-[5rem] left-[10%] lg:left-[4%]"></div>
         <div className="box1 bg-red-500 -z-50 absolute top-[5rem] right-5 lg:top-[17rem] lg:left-[23%]"></div>
 
@@ -29,15 +29,15 @@ export default function Home() {
         <Hero />
       </div>
 
-      <div className="relative border-b-[16px] border-b-white">
+      <div className="relative lg:border-b-[16px] lg:border-b-white">
         <div className="box1 bg-green-500 -z-50 absolute top-5 lg:top-[5rem] left-[40%] lg:left-[40%]"></div>
         <About />
       </div>
-      <div className="relative border-b-[16px] border-b-white">
+      <div className="relative lg:border-b-[16px] lg:border-b-white">
         <div className="box1 bg-green-500 -z-50 absolute top-5 lg:top-[5rem] left-[40%] lg:left-[40%]"></div>
         <Tokenomics />
       </div>
-      <div className="relative border-b-[16px] border-b-white">
+      <div className="relative lg:border-b-[16px] lg:border-b-white">
         <div className="box1 bg-green-500 -z-50 absolute top-5 lg:top-[5rem] left-[40%] lg:left-[25%]"></div>
         <Buy />
       </div>
