@@ -38,7 +38,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="w-[50%] lg:w-[33.3%] relative"
+        className="w-[50%] lg:w-[33.3%] relative mb-6 lg:mb-0"
       >
         <Image
           src={"/hero-pepe.PNG"}
