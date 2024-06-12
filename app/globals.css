@@ -204,11 +204,11 @@ body {
 }
 
 .textWithShadow1 {
-  text-shadow: -3px 9px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
+  text-shadow: -3px 6px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
 }
 
 .textWithShadow2 {
-  text-shadow: -3px 7px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
+  text-shadow: -3px 6px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
 }
 
 .textWithShadow3 {

@@ -26,7 +26,7 @@ const Hero = () => {
             whileInView="show"
             variants={fadeIn("right", "tween", 0, 0.5)}
             viewport={{ once: true }}
-            className="text-white text-center textWithShadow2 font1 text-[27px] lg:text-left lg:text-[2.5rem] px-8 lg:px-0 lg:max-w-[30rem] uppercase font-bold leading-[3.5rem]"
+            className="text-white text-center textWithShadow2 font1 text-[2rem] lg:text-left lg:text-[2.5rem] px-8 lg:px-0 lg:max-w-[30rem] uppercase font-bold leading-[3.5rem] tracking-wider"
           >
             Bridging Cultures in the Crypto Realm
           </motion.div>

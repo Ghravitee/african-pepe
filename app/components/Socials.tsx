@@ -13,7 +13,7 @@ const Socials = () => {
     <div className="px-5 py-10 lg:px-20 lg:py-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
         <div>
-          <h2 className="text-white text-center lg:text-left text-[3rem] lg:text-[4.5rem] font-bold mb-10 font1 textWithShadow2">
+          <h2 className="text-white text-center lg:text-left text-[2.5rem] lg:text-[4.5rem] font-bold mb-10 font1 textWithShadow2">
             Follow $Apepe on Social Media
           </h2>
 
