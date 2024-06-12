@@ -13,9 +13,9 @@ const Tokenomics = () => {
       </h2>
       <div className="lg:hidden flex flex-col justify-center items-center">
         <Piechart />
-        <div className="">Total Supply: 1.000.000.000</div>
+      
         <div className="ribbon-1">Total Supply: 1.000.000.000</div>
-        <div className="ribbon-2">80% LP</div>
+        <div className="ribbon-2">90% LP</div>
         <div className="ribbon-3">5% KOL</div>
         <div className="ribbon-4">5% Team</div>
         
@@ -29,7 +29,7 @@ const Tokenomics = () => {
            whileInView="show"
            viewport={{ once: true}}
           className="tokenomics-box1 flex justify-center items-center">
-            <p className="font1 textWithShadow3 text-white text-[2rem]">10% KOL</p>
+            <p className="font1 textWithShadow3 text-white text-[2rem]">5% KOL</p>
           </motion.div>
 
           <motion.div
@@ -80,10 +80,10 @@ const Tokenomics = () => {
           whileInView="show"
           viewport={{ once: true}}className="tokenomics-box3 flex justify-center items-center bg-[#FBE5B6]">
             <p className="font1 textWithShadow3 text-white text-[2rem]">
-              80% LP
+              90% LP
             </p>
           </motion.div>
-          <motion.div
+          {/* <motion.div
            variants={zoomIn(0.8, 1)}
            initial="hidden"
            whileInView="show"
@@ -92,7 +92,7 @@ const Tokenomics = () => {
             <p className="font1 textWithShadow3 text-white text-[2rem] break-all text-center">
               5% <br /> Community
             </p>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </div>
