@@ -12,6 +12,8 @@ const Tokenomics = () => {
       </h2>
       <div className="lg:hidden flex flex-col justify-center items-center">
         <Piechart />
+        <div className="">Total Supply: 1.000.000.000</div>
+        
       </div>
 
       <div className=" hidden lg:grid lg:grid-cols-3 justify-center items-center">
@@ -41,7 +43,7 @@ const Tokenomics = () => {
          initial="hidden"
          whileInView="show"
          viewport={{ once: true}}
-        className="lg:h-full lg:w-full w-56 h-56 rounded-full flex justify-center items-center bg-blue-500">
+        className="lg:h-full lg:w-full w-52 h-52 rounded-full flex justify-center items-center bg-blue-500">
           <p className="font1 textWithShadow3 text-white text-[2.5rem] break-all text-center">
             <span className="block">Total Supply:</span> 1.000.000.000
           </p>

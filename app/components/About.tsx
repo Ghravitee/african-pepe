@@ -13,10 +13,10 @@ const About = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="w-full lg:w-[50%] mx-auto"
+        className="w-full lg:w-[60%] mx-auto"
       >
         <Image
-          src="/hero-pepe.PNG"
+          src="/African-Pepe-headshot-logo.png"
           width={450}
           alt="thuglife"
           height={450}

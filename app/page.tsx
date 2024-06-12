@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       <div className="relative lg:border-b-[16px] lg:border-b-white">
-        <div className="box1 bg-green-500 -z-50 absolute top-5 lg:top-[5rem] left-[40%] lg:left-[40%]"></div>
+        <div className="box1 bg-green-500 -z-50 absolute top-5 lg:top-[5rem] left-[40%] lg:left-[50%]"></div>
         <About />
       </div>
       <div className="relative lg:border-b-[16px] lg:border-b-white">

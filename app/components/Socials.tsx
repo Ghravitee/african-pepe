@@ -84,12 +84,12 @@ const Socials = () => {
          className="mx-auto"
        
       >
-        <Image
-          src="/hero-pepe.PNG"
-          alt="thuglife"
-          width={300}
-          height={300}
-          className=""
+         <Image
+          src={"/apepe-character.png"}
+          width={400}
+          alt="apepe"
+          height={400}
+          className="mx-auto self-center"
         />
       
       </motion.div>

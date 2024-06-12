@@ -41,13 +41,13 @@ const Hero = () => {
         className="w-[50%] lg:w-[33.3%] relative mb-6 lg:mb-0"
       >
         <Image
-          src={"/hero-pepe.PNG"}
+          src={"/apepe-character.png"}
           width={450}
-          alt="thuglife"
+          alt="apepe"
           height={450}
           className="mx-auto self-center"
         />
-        {/* <div className="box1 bg-[#fcf300] -z-50 absolute -top-5 lg:top-[3.5rem] left-[40%] lg:left-[40%]"></div> */}
+        
      
       </motion.div>
 
