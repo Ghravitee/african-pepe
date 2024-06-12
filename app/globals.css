@@ -2,32 +2,429 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  position: relative;
+}
+.font1 {
+  font-family: var(--font-anton);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.grass-border {
+  position: relative;
+  padding: 20px;
+}
+
+.grass-border::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #4caf50,
+    #4caf50 5px,
+    #81c784 5px,
+    #81c784 10px
+  );
+  z-index: 10;
+}
+
+.box1 {
+  width: 100px;
+  aspect-ratio: 1;
+  --g: /27.676% 27.676% radial-gradient(#000 calc(71% - 1px), #0000 71%) no-repeat;
+  mask: 99.039% 59.755% var(--g), 77.779% 91.573% var(--g),
+    40.245% 99.039% var(--g), 8.427% 77.779% var(--g), 0.961% 40.245% var(--g),
+    22.221% 8.427% var(--g), 59.755% 0.961% var(--g), 91.573% 22.221% var(--g),
+    radial-gradient(100% 100%, #000 33.409%, #0000 calc(33.409% + 1px));
+}
+
+.box-1 {
+  width: 100px;
+  aspect-ratio: 1;
+  --g: /27.676% 27.676% radial-gradient(#000 calc(71% - 1px), #0000 71%) no-repeat;
+  mask: 99.039% 59.755% var(--g), 77.779% 91.573% var(--g),
+    40.245% 99.039% var(--g), 8.427% 77.779% var(--g), 0.961% 40.245% var(--g),
+    22.221% 8.427% var(--g), 59.755% 0.961% var(--g), 91.573% 22.221% var(--g),
+    radial-gradient(100% 100%, #000 33.409%, #0000 calc(33.409% + 1px));
+}
+
+.box2 {
+  width: 200px;
+  aspect-ratio: 1;
+  --g: /25.486% 25.486% radial-gradient(#000 calc(71% - 1px), #0000 71%) no-repeat;
+  mask: radial-gradient(100% 100%, #000 calc(35.01% - 1px), #0000 35.01%)
+      intersect,
+    radial-gradient(#000 0 0) exclude, 99.24% 58.682% var(--g),
+    82.139% 88.302% var(--g), 50% 100% var(--g), 17.861% 88.302% var(--g),
+    0.76% 58.682% var(--g), 6.699% 25% var(--g), 32.899% 3.015% var(--g),
+    67.101% 3.015% var(--g), 93.301% 25% var(--g);
+}
+
+.box3 {
+  background-color: #f7e6f5;
+  opacity: 0.8;
+  background-image: linear-gradient(
+      30deg,
+      #f74545 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f74545 87.5%,
+      #f74545
+    ),
+    linear-gradient(
+      150deg,
+      #f74545 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f74545 87.5%,
+      #f74545
+    ),
+    linear-gradient(
+      30deg,
+      #f74545 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f74545 87.5%,
+      #f74545
+    ),
+    linear-gradient(
+      150deg,
+      #f74545 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f74545 87.5%,
+      #f74545
+    ),
+    linear-gradient(
+      60deg,
+      #f7454577 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #f7454577 75%,
+      #f7454577
+    ),
+    linear-gradient(
+      60deg,
+      #f7454577 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #f7454577 75%,
+      #f7454577
+    );
+  background-size: 58px 102px;
+  background-position: 0 0, 0 0, 29px 51px, 29px 51px, 0 0, 29px 51px;
+}
+
+.box4 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: linear-gradient(45deg, #ff0054, #ff0054);
+}
+.box5 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: linear-gradient(45deg, #fa6900, #ff9900);
+}
+.box6 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: linear-gradient(45deg, #31572c, #31572c);
+}
+
+.box7 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  background: linear-gradient(45deg, #ff0054, #ff0054);
+}
+
+.box8 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  background: linear-gradient(45deg, #fa6900, #ff9900);
+}
+
+.box9 {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  clip-path: polygon(0 100%, 0 0, 100% 100%);
+  background: linear-gradient(45deg, #008000, #ccff33);
+}
+
+.pattern-1 {
+  background-color: #d81414;
+  opacity: 1;
+  background-image: linear-gradient(135deg, #5cf745 25%, transparent 25%),
+    linear-gradient(225deg, #5cf745 25%, transparent 25%),
+    linear-gradient(45deg, #5cf745 25%, transparent 25%),
+    linear-gradient(315deg, #5cf745 25%, #d81414 25%);
+  background-position: 13px 0, 13px 0, 0 0, 0 0;
+  background-size: 16px 16px;
+  background-repeat: repeat;
+  border: none;
+}
+
+.pattern-2 {
+  background-color: #14d946;
+  opacity: 1;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #14d946 20%,
+      #14d946 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #14d946 20%,
+        #14d946 80%,
+        transparent 80%,
+        transparent
+      )
+      100px 100px,
+    linear-gradient(#e5f745 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #e5f745 8px, #14d946 8px) -4px 0;
+  background-size: 200px 200px, 200px 200px, 100px 100px, 100px 100px;
+  border: none;
+}
+
+.textWithShadow1 {
+  text-shadow: -3px 9px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
+}
+
+.textWithShadow2 {
+  text-shadow: -3px 7px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
+}
+
+.textWithShadow3 {
+  text-shadow: -3px 5px 0px rgba(0, 0, 0, 1); /* Apply text shadow */
+}
+
+
+.tokenomics-box1 {
+  width: 220px;
+  aspect-ratio: 1;
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+  clip-path: polygon(
+    100% 50%,
+    85.36% 85.36%,
+    50% 100%,
+    14.64% 85.36%,
+    0% 50%,
+    14.64% 14.64%,
+    50% 0%,
+    85.36% 14.64%
+  );
+}
+.tokenomics-box2 {
+  width: 220px;
+  aspect-ratio: 1;
+  clip-path: polygon(
+    100% 50%,
+    85.36% 85.36%,
+    50% 100%,
+    14.64% 85.36%,
+    0% 50%,
+    14.64% 14.64%,
+    50% 0%,
+    85.36% 14.64%
+  );
+}
+.tokenomics-box3 {
+  width: 220px;
+  aspect-ratio: 1;
+  clip-path: polygon(
+    100% 50%,
+    85.36% 85.36%,
+    50% 100%,
+    14.64% 85.36%,
+    0% 50%,
+    14.64% 14.64%,
+    50% 0%,
+    85.36% 14.64%
+  );
+}
+.tokenomics-box4 {
+  width: 220px;
+  aspect-ratio: 1;
+  clip-path: polygon(
+    100% 50%,
+    85.36% 85.36%,
+    50% 100%,
+    14.64% 85.36%,
+    0% 50%,
+    14.64% 14.64%,
+    50% 0%,
+    85.36% 14.64%
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+
+
+
+
+
+@media (min-width: 1024px) {
+  .box4 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background: linear-gradient(45deg, #ff0054, #ff0054);
+  }
+  .box5 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background: linear-gradient(45deg, #fa6900, #ff9900);
+  }
+  .box6 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background: linear-gradient(45deg, #31572c, #31572c);
+  }
+
+  .box7 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    background: linear-gradient(45deg, #ff0054, #ff0054);
+  }
+
+  .box8 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    background: linear-gradient(45deg, #fa6900, #ff9900);
+  }
+
+  .box9 {
+    height: 70px;
+    width: 70px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+    background: linear-gradient(45deg, #008000, #ccff33);
+  }
+
+  .pattern-1 {
+    background-color: #d81414;
+    opacity: 1;
+    background-image: linear-gradient(135deg, #5cf745 25%, transparent 25%),
+      linear-gradient(225deg, #5cf745 25%, transparent 25%),
+      linear-gradient(45deg, #5cf745 25%, transparent 25%),
+      linear-gradient(315deg, #5cf745 25%, #d81414 25%);
+    background-position: 13px 0, 13px 0, 0 0, 0 0;
+    background-size: 26px 26px;
+    background-repeat: repeat;
+    border: none;
+  }
+  
+
+  .tokenomics-box1 {
+    width: 220px;
+    aspect-ratio: 1;
+    background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+    clip-path: polygon(
+      100% 50%,
+      85.36% 85.36%,
+      50% 100%,
+      14.64% 85.36%,
+      0% 50%,
+      14.64% 14.64%,
+      50% 0%,
+      85.36% 14.64%
+    );
+  }
+  .tokenomics-box2 {
+    width: 220px;
+    aspect-ratio: 1;
+    clip-path: polygon(
+      100% 50%,
+      85.36% 85.36%,
+      50% 100%,
+      14.64% 85.36%,
+      0% 50%,
+      14.64% 14.64%,
+      50% 0%,
+      85.36% 14.64%
+    );
+  }
+  .tokenomics-box3 {
+    width: 220px;
+    aspect-ratio: 1;
+    background: #f12711; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #f5af19,
+      #f12711
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #f5af19,
+      #f12711
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    clip-path: polygon(
+      100% 50%,
+      85.36% 85.36%,
+      50% 100%,
+      14.64% 85.36%,
+      0% 50%,
+      14.64% 14.64%,
+      50% 0%,
+      85.36% 14.64%
+    );
+  }
+  .tokenomics-box4 {
+    width: 220px;
+    aspect-ratio: 1;
+    clip-path: polygon(
+      100% 50%,
+      85.36% 85.36%,
+      50% 100%,
+      14.64% 85.36%,
+      0% 50%,
+      14.64% 14.64%,
+      50% 0%,
+      85.36% 14.64%
+    );
   }
 }

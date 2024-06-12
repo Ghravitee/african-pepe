@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito, Anton } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"] });
+
+const anton = Anton({subsets: ["latin"],
+weight: "400",
+variable: "--font-anton",})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${nunito.className} ${anton.variable} bg-myyellow relative`}>{children}</body>
     </html>
   );
 }

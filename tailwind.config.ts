@@ -9,9 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "heroportrait": "url('/African-Pepe.jpg')",
+        "herolandscape": "url('/African-Pepe-Landscape.jpg')",
+        "herobackground": "url('/pepe-background.PNG')",
+        "heropepe": "url('/hero-pepe.PNG')"
+      },
+      colors: {
+        forestGreen: 'rgb(79, 152, 67)',
+        myyellow: '#ffd466',
+        myorange: '#ff9900',
       },
     },
   },
