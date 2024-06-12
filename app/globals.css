@@ -275,6 +275,85 @@ body {
 }
 
 
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon-1, .ribbon-2, .ribbon-3, .ribbon-4 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon-1 {
+  --c: #60b0a7;
+  
+  padding-inline: 1lh;
+  line-height: 2.5;
+  -webkit-mask:
+    linear-gradient(45deg ,#0000 50%,#000 0) 0    calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(-45deg,#0000 50%,#000 0) 100% calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(45deg,#000 50%,#0000 0) 100% .1lh/.8lh .8lh no-repeat,
+    conic-gradient(from 225deg at .9lh,#0000 25%,#000 0) 
+     0    1lh/51% 2lh repeat-y,
+    conic-gradient(from 45deg at calc(100% - .9lh),#0000 25%,#000 0) 
+     100% 0  /51% 2lh repeat-y;
+  background:
+    linear-gradient(var(--c) 80%,#0000 0) 0 .1lh/100% 1lh,
+    linear-gradient(90deg,color-mix(in srgb,var(--c),#000 35%) 1.6lh,#0000 0) -.8lh 50%/100% calc(100% - .3lh) repeat-x;
+  width: fit-content;
+}
+.ribbon-2 {
+  --c: #fcf300;
+  
+  padding-inline: 1lh;
+  line-height: 2.5;
+  -webkit-mask:
+    linear-gradient(45deg ,#0000 50%,#000 0) 0    calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(-45deg,#0000 50%,#000 0) 100% calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(45deg,#000 50%,#0000 0) 100% .1lh/.8lh .8lh no-repeat,
+    conic-gradient(from 225deg at .9lh,#0000 25%,#000 0) 
+     0    1lh/51% 2lh repeat-y,
+    conic-gradient(from 45deg at calc(100% - .9lh),#0000 25%,#000 0) 
+     100% 0  /51% 2lh repeat-y;
+  background:
+    linear-gradient(var(--c) 80%,#0000 0) 0 .1lh/100% 1lh,
+    linear-gradient(90deg,color-mix(in srgb,var(--c),#000 35%) 1.6lh,#0000 0) -.8lh 50%/100% calc(100% - .3lh) repeat-x;
+  width: fit-content;
+}
+.ribbon-3 {
+  --c: #ff5f6d;
+  
+  padding-inline: 1lh;
+  line-height: 2.5;
+  -webkit-mask:
+    linear-gradient(45deg ,#0000 50%,#000 0) 0    calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(-45deg,#0000 50%,#000 0) 100% calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(45deg,#000 50%,#0000 0) 100% .1lh/.8lh .8lh no-repeat,
+    conic-gradient(from 225deg at .9lh,#0000 25%,#000 0) 
+     0    1lh/51% 2lh repeat-y,
+    conic-gradient(from 45deg at calc(100% - .9lh),#0000 25%,#000 0) 
+     100% 0  /51% 2lh repeat-y;
+  background:
+    linear-gradient(var(--c) 80%,#0000 0) 0 .1lh/100% 1lh,
+    linear-gradient(90deg,color-mix(in srgb,var(--c),#000 35%) 1.6lh,#0000 0) -.8lh 50%/100% calc(100% - .3lh) repeat-x;
+  width: fit-content;
+}
+.ribbon-4 {
+  --c: #2C6E63;
+  
+  padding-inline: 1lh;
+  line-height: 2.5;
+  -webkit-mask:
+    linear-gradient(45deg ,#0000 50%,#000 0) 0    calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(-45deg,#0000 50%,#000 0) 100% calc(100% - .1lh)/.8lh .8lh no-repeat,
+    linear-gradient(45deg,#000 50%,#0000 0) 100% .1lh/.8lh .8lh no-repeat,
+    conic-gradient(from 225deg at .9lh,#0000 25%,#000 0) 
+     0    1lh/51% 2lh repeat-y,
+    conic-gradient(from 45deg at calc(100% - .9lh),#0000 25%,#000 0) 
+     100% 0  /51% 2lh repeat-y;
+  background:
+    linear-gradient(var(--c) 80%,#0000 0) 0 .1lh/100% 1lh,
+    linear-gradient(90deg,color-mix(in srgb,var(--c),#000 35%) 1.6lh,#0000 0) -.8lh 50%/100% calc(100% - .3lh) repeat-x;
+  width: fit-content;
+}
+
 
 
 

@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Image from "next/image";
 import Piechart from '../utils//Piechart'
 import { motion } from "framer-motion";
 import { fadeIn, zoomIn } from "@/app/utils/motion";
@@ -13,6 +14,10 @@ const Tokenomics = () => {
       <div className="lg:hidden flex flex-col justify-center items-center">
         <Piechart />
         <div className="">Total Supply: 1.000.000.000</div>
+        <div className="ribbon-1">Total Supply: 1.000.000.000</div>
+        <div className="ribbon-2">80% LP</div>
+        <div className="ribbon-3">5% KOL</div>
+        <div className="ribbon-4">5% Team</div>
         
       </div>
 
@@ -38,7 +43,24 @@ const Tokenomics = () => {
             </p>
           </motion.div>
         </div>
+
         <motion.div
+         variants={zoomIn(1, 1)}
+         initial="hidden"
+         whileInView="show"
+         viewport={{ once: true}}
+        >
+        <Image
+          src={"/apepe-character.png"}
+          width={450}
+          alt="apepe"
+          height={450}
+          className="mx-auto self-center"
+        />
+        </motion.div>
+        
+
+        {/* <motion.div
          variants={zoomIn(1, 1)}
          initial="hidden"
          whileInView="show"
@@ -47,7 +69,7 @@ const Tokenomics = () => {
           <p className="font1 textWithShadow3 text-white text-[2.5rem] break-all text-center">
             <span className="block">Total Supply:</span> 1.000.000.000
           </p>
-        </motion.div>
+        </motion.div> */}
 
 
         <div className="flex justify-center items-center flex-col gap-4">
