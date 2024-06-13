@@ -276,8 +276,14 @@ body {
 
 
 /* HTML: <div class="ribbon">Your text content</div> */
-.ribbon-1, .ribbon-2, .ribbon-3, .ribbon-4 {
+.ribbon-1, .ribbon-2, .ribbon-4 {
   font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ribbon-3 {
+  font-size: 20px;
   font-weight: bold;
   color: #fff;
 }
