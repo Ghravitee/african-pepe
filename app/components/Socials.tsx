@@ -85,10 +85,10 @@ const Socials = () => {
        
       >
          <Image
-          src={"/apepe-character.png"}
-          width={400}
+          src={"/hero-3.png"}
+          width={450}
           alt="apepe"
-          height={400}
+          height={450}
           className="mx-auto self-center"
         />
       

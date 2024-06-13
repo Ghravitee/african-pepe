@@ -15,10 +15,10 @@ const Tokenomics = () => {
         <Piechart />
       
         <div className="ribbon-1">Total Supply: 1.000.000.000</div>
-        <div className="ribbon-2">90% LP</div>
+        {/* <div className="ribbon-2">90% LP</div>
         <div className="ribbon-3">5% KOL</div>
         <div className="ribbon-4">5% Team</div>
-        
+         */}
       </div>
 
       <div className=" hidden lg:grid lg:grid-cols-3 justify-center items-center">
@@ -51,7 +51,7 @@ const Tokenomics = () => {
          viewport={{ once: true}}
         >
         <Image
-          src={"/apepe-character.png"}
+          src={"/hero-1.png"}
           width={450}
           alt="apepe"
           height={450}

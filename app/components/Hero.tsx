@@ -41,7 +41,7 @@ const Hero = () => {
         className="w-[50%] lg:w-[33.3%] relative mb-6 lg:mb-0"
       >
         <Image
-          src={"/apepe-character.png"}
+          src={"/hero-1.png"}
           width={450}
           alt="apepe"
           height={450}
@@ -61,12 +61,14 @@ const Hero = () => {
           <span className="text-[#ff0054]">Step into the vibrant world of $Apepe</span> where the iconic Pepe meme
           intertwines with the rich tapestry of African heritage.
         </h2>
+        <div className="ribbon-3 mb-4">Ca: Not yet live!</div>
         <a
           href=""
           className="bg-green-500 px-4 py-3 flex justify-center items-center text-white font-semibold text-2xl w-[70%] lg:w-[50%] shadow-[1px_2px_0px_2px_#000000] hover:shadow-none transition duration-300 sm:text-2xl lilita rounded-2xl"
         >
           Buy Now
         </a>
+       
       </motion.div>
     </div>
   );

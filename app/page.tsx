@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className=" relative lg:border-b-[16px] lg:border-b-white">
         <div className="box1 bg-green-500 -z-50 absolute top-[5rem] left-[10%] lg:left-[4%]"></div>
-        <div className="box1 bg-red-500 -z-50 absolute top-[5rem] right-5 lg:top-[17rem] lg:left-[23%]"></div>
+        <div className="box1 bg-[#ff0054] -z-50 absolute top-[5rem] right-5 lg:top-[17rem] lg:left-[23%]"></div>
 
         <div className="-z-50 absolute top-0 left-0 w-[30%] h-2 bg-[#ff0054]"></div>
         <div className="-z-50 absolute pattern-1 top-[0.5rem] left-0 w-[30%] h-5 lg:w-[30%] lg:h-10"></div>

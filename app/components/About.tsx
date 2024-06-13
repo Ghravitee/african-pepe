@@ -16,7 +16,7 @@ const About = () => {
         className="w-full lg:w-[60%] mx-auto"
       >
         <Image
-          src="/African-Pepe-headshot-logo.png"
+          src="/hero-2.png"
           width={450}
           alt="thuglife"
           height={450}
