@@ -12,7 +12,7 @@ const Buy = () => {
 
         <div className="flex gap-4 justify-center items-center mb-16">
       <a
-          href="https://dexscreener.com/base/0x4eed24e171db64ba807d2f5e77ec667a8995d597"
+          href=""
           className=""
         >
           <Image 
@@ -21,14 +21,14 @@ const Buy = () => {
             />
         </a>
         <a
-          href="https://app.uniswap.org/swap?outputCurrency=0x6189c29EB01493A88DF50AD3A5DD952709dB7616&chain=base"
+          href=""
           className="hover:transform hover:-translate-y-2 transition duration-300"
         >
          <Image 
             src={uniswap} alt={""} width={100} height={90}/> 
         </a>
         <a
-          href="https://www.dextools.io/app/en/base/pair-explorer/0x4eed24e171db64ba807d2f5e77ec667a8995d597?t=1717886580623"
+          href=""
           className="mt-5 hover:transform hover:-translate-y-2 transition duration-300"
         >
           <Image 
