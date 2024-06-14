@@ -25,7 +25,7 @@ const Socials = () => {
             className="flex gap-6 justify-center lg:justify-start items-center mb-6"
           >
             <a
-              href=""
+              href="https://x.com/theafricanpepe"
               className="flex justify-center items-center hover:shadow-none transition duration-300 bg-green-500 hover:transform hover:scale-75 border-2 border-white w-20 h-20 rounded-full"
             >
               <RiTwitterXFill
@@ -34,7 +34,7 @@ const Socials = () => {
               />
             </a>
             <a
-              href=""
+              href="https://t.me/africanpepe"
               className="flex justify-center items-center hover:shadow-none transition duration-300 bg-green-500 hover:transform hover:scale-75 border-2 border-white w-20 h-20 rounded-full"
             >
               <BiLogoTelegram

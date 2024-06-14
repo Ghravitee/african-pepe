@@ -17,9 +17,9 @@ const About = () => {
       >
         <Image
           src="/hero-2.png"
-          width={450}
+          width={500}
           alt="thuglife"
-          height={450}
+          height={500}
           className=""
         />
       </motion.div>
