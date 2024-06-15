@@ -61,10 +61,10 @@ const Hero = () => {
           <span className="text-[#ff0054]">Step into the vibrant world of $Apepe</span> where the iconic Pepe meme
           intertwines with the rich tapestry of African heritage.
         </h2>
-        <div className="ribbon-3 mb-4">Ca: Not yet live!</div>
+        <div className=" flex justify-center items-center px-8 py-4 my-4 bg-[#ff0054] text-white rounded-2xl w-[60%] lg:w-[50%] shadow-[1px_2px_0px_2px_#ffffff] hover:shadow-none transition duration-300 sm:text-[1.2rem]">Ca: Not yet live!</div>
         <a
           href=""
-          className="bg-green-500 px-4 py-3 flex justify-center items-center text-white font-semibold text-2xl w-[70%] lg:w-[50%] shadow-[1px_2px_0px_2px_#000000] hover:shadow-none transition duration-300 sm:text-2xl lilita rounded-2xl"
+          className="bg-green-500 px-4 py-3 flex justify-center items-center text-white font-semibold text-2xl w-[60%] lg:w-[50%] shadow-[1px_2px_0px_2px_#ffffff] hover:shadow-none transition duration-300 sm:text-2xl lilita rounded-2xl"
         >
           Buy Now
         </a>
