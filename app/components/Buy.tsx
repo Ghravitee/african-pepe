@@ -10,7 +10,7 @@ const Buy = () => {
     <div className='px-5 py-10 lg:px-20 lg:py-24'>
         <h2 className='text-white text-center text-[2.5rem] lg:text-[4.5rem] font-bold mb-10 font1 textWithShadow2'>Where to buy $Apepe?</h2>
 
-        <div className="flex gap-8 justify-center items-center mb-16">
+        <div className="flex flex-col lg:flex-row gap-8 justify-center items-center mb-16">
       <a
           href=""
           className=""
