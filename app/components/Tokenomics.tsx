@@ -13,7 +13,7 @@ const Tokenomics = () => {
       </h2>
       <div className="lg:hidden flex flex-col justify-center items-center">
         <Piechart />
-      <div className="mt-8 px-4 py-4 rounded-md border-2 bg-[#ff0054] text-[1.5rem] border-white text-white">Total Supply: 1.000.000.000</div>
+      <div className="mt-8 px-4 py-4 rounded-md border-2 bg-[#ff0054] text-[1.5rem] border-white text-white text-center">Total Supply: 1.000.000.000</div>
       </div>
 
       <div className=" hidden lg:grid lg:grid-cols-3 justify-center items-center">
