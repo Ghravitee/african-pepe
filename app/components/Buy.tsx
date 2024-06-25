@@ -28,7 +28,7 @@ const Buy = () => {
             src={uniswap} alt={""} width={130} height={120}/> 
         </a>
         <a
-          href=""
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0x46afb9ced594bbbcf1b7724f0c2d04161a09d700?t=1719518057547"
           className="mt-5 hover:transform hover:-translate-y-2 transition duration-300"
         >
           <Image 
